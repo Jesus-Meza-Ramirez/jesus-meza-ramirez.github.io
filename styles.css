@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
 
+/* Estilo para el menú en dispositivos de escritorio */
+#nav {
+    display: block; /* El menú es visible por defecto en escritorios */
+}
+
+/* Estilo para el menú en dispositivos móviles */
+@media (max-width: 768px) {
+    #nav {
+        display: none; /* El menú está oculto por defecto en móviles */
+    }
+
+    #nav.responsive {
+        display: block; /* El menú se muestra cuando tiene la clase "responsive" */
+    }
+}
 *{
     box-sizing: border-box;
     font-family: 'work Sans';

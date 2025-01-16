@@ -3,7 +3,7 @@ let menuVisible = false
 
 function mostrarOcultarMenu(){
     if(menuVisible){
-        document.getElementById("nav").classList="";
+        document.getElementById("nav").classList="responsive";
         menuVisible=false;
     }else{
         document.getElementById("nav").classList="responsive";
@@ -41,3 +41,9 @@ function efectoHabilidades(){
 window.onscroll = function(){
     efectoHabilidades();
 }
+
+// Asegúrate de que el menú esté oculto al inicio
+document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("nav").classList.remove("responsive"); // Asegura que el menú no se muestre al inicio
+    menuVisible = false;
+});
