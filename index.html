@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Desarrollador | Jesus Meza</title>
+    <link rel="icon" href="images/codigo1.png" type="images/png">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Jesus Meza</a>
+            </div>
+            <nav id="nav" class="responsive">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MÍ</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCIÓN INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="images/foto3.jpg" alt="">
+            </div>
+            <h1>JESUS MEZA RAMIREZ</h1>
+            <h2>Ingeniero de Sistemas - Frontend</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/jesusantonio.mezaramirez/" target="_blank"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/jesus-antonio-meza-ramirez-343970342/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.youtube.com/@aprendemas5707" target="_blank"><i
+                        class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/jesus26mr/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+
+            </div>
+        </div>
+    </section>
+
+    <!--  SECCIÓN SOBRE MÍ -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jesus Meza, </span>Soy estudiante de Ingeniería de
+                Sistemas con interés en el desarrollo de soluciones tecnológicas.
+                Tengo nociones básicas de Java, SQL, JavaScript, HTML, CSS y Git.
+                Estoy motivado por aprender y aplicar mis conocimientos en proyectos
+                prácticos, buscando siempre aportar valor mediante la innovación y
+                la optimización de procesos.</p>
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            26-07-1991
+                        </li>
+                        <li>
+                            <strong>Celular</strong>
+                            933 846 222
+                        </li>
+                        <li>
+                            <strong>DNI</strong>
+                            46978892
+                        </li>
+                        <li>
+                            <strong>Sexo</strong>
+                            Masculino
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            jesusmr2691@gmail.com
+                        </li>
+
+                        <li>
+                            <strong>Dirección</strong>
+                            Nueva Esperanza - Villa María del Triunfo
+                        </li>
+                        <li>
+                            <strong>Nacionalidad</strong>
+                            Peruano
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+
+                        <div class="intereses">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+
+                        <div class="intereses">
+                            <i class="fa-duotone fa-solid fa-film"></i>
+                            <span>PELÍCULAS</span>
+                        </div>
+
+                        <div class="intereses">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>PC GAMER</span>
+                        </div>
+
+                        <div class="intereses">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>CAMARAS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-brands fa-space-awesome"></i>
+                            <span>UNIVERSO</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-atom"></i>
+                            <span>CIENCIA</span>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <a href="CV/CV-JESUS-MEZA.pdf" download="CV-JESUS-MEZA">
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCIÓN SKILLS -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- habiidades duras -->
+                <div class="col">
+                    <h3>Aptitudes</h3>
+                    <div class="habilidades">
+                        <span>Javascript</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso javascript">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="habilidades">
+                        <span>HTML5 Y CSS3</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso htmlcss">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="habilidades">
+                        <span>SQL</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso sql">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="habilidades">
+                        <span>Git</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso git">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="habilidades">
+                        <span>Java</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso java">
+                                <span>30%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="habilidades">
+                        <span>Python</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso python">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- habilidades blandas -->
+                <div class="col">
+                    <h3>Actitudes</h3>
+                    <div class="habilidades">
+                        <span>Comunicación</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso comunicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="habilidades">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso trabajoequipo">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="habilidades">
+                        <span>Creatividad</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso creatividad">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="habilidades">
+                        <span>Responsabilidad</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso responsabilidad">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="habilidades">
+                        <span>Honestidad</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso honestidad">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="habilidades">
+                        <span>Compromiso</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso compromiso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Curriculum -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+
+                    <div class="item izq">
+                        <h4>Cursos en Linea</h4>
+                        <span class="casa">EDTeam</span>
+                        <span class="fecha">2024-2025</span>
+                        <p>He completado diversos cursos en EDTeam, una plataforma educativa enfocada en la formación de
+                            programadores. Estos cursos me han permitido adquirir y mejorar habilidades técnicas en
+                            áreas clave como desarrollo web, programación en diversos lenguajes, frameworks, bases de
+                            datos y metodologías ágiles. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Ingenieria de Sistemas</h4>
+                        <span class="casa">Universidad Autonoma del Perú</span>
+                        <span class="fecha">2021-2025 (En curso)</span>
+                        <p>Estoy cursando la carrera de Ingeniería de Sistemas en la Universidad Autónoma del Perú,
+                            donde estoy adquiriendo conocimientos avanzados en programación, bases de datos, redes,
+                            desarrollo de software y gestión de proyectos tecnológicos. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <div class="item izq">
+                        <h4>Electricidad Industrial</h4>
+                        <span class="casa">Senati</span>
+                        <span class="fecha">2012-2013</span>
+                        <p>Inicié mis estudios en Electricidad Industrial en el SENATI, donde adquirí conocimientos
+                            fundamentales en sistemas eléctricos, automatización, control industrial y mantenimiento de
+                            equipos eléctricos. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Secundaria</h4>
+                        <span class="casa">Trilce</span>
+                        <span class="fecha">2005-2008</span>
+                        <p>Realicé mis estudios de educación secundaria en Trilce, donde desarrollé habilidades
+                            académicas y personales en un ambiente que promueve la excelencia educativa. </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Digitalizador</h4>
+                        <span class="casa">Inetum Perú S.A.C.</span>
+                        <span class="fecha">2022-2024</span>
+                        <p>Trabaje como digitalizador, donde pasabamos documentos fisicos a formato digital,
+                            Adquirí habilidades de organización y atención al detalle al
+                            gestionar grandes volúmenes de datos. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Jefe de Sala</h4>
+                        <span class="casa">Cirsa S.A.C.</span>
+                        <span class="fecha">2015-2017</span>
+                        <p> Supervisé y gestioné al personal de la sala, coordinando las
+                            operaciones diarias y asegurando el cumplimiento de
+                            las normas de operación y estándares de servicio al
+                            cliente. Resolví incidencias y atendí a los clientes,
+                            garantizando una experiencia de juego agradable y
+                            segura. Además de capacitar al nuevo personal en los
+                            procedimientos y protocolos del casino. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Técnico Electricista</h4>
+                        <span class="casa">Nova Visión S.A.C. </span>
+                        <span class="fecha">2012</span>
+                        <p> Desempeñé el rol de técnico
+                            electricista, donde realicé tareas de mantenimiento a
+                            hornos de panadería. Diagnostiqué y reparé fallos
+                            eléctricos, asegurando el correcto funcionamiento de
+                            los equipos y contribuyendo a la seguridad y
+                            eficiencia operativa de las panaderías </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion portafolio -->
+    <section id="portafolio" class="portafolio">
+        <div class="contenido-seccion">
+            <h2>Portafolio</h2>
+            <div class="galeria">
+
+                <div class="proyecto">
+
+                    <img src="./images/p1.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Sitio web</h3>
+                        <p>Simula un sitio web tecnológico</p>
+                        <a href="https://startling-capybara-a6a987.netlify.app/" target="_blank"
+                            class="project-button">Ver Proyecto</a>
+
+
+                    </div>
+                    <!-- Aquí agregamos los iconos debajo del botón -->
+                    <div class="tech-icons">
+                        <i class="fa-brands fa-html5" style="color: #d38d0b;"></i> <!-- Icono de HTML -->
+                        <i class="fab fa-css3-alt" style="color: #366ee9; "></i> <!-- Icono de CSS -->
+                        <i class="fab fa-js" style="color: #e2f111;"></i> <!-- Icono de JavaScript -->
+                    </div>
+
+                </div>
+
+
+                <div class="proyecto">
+                    <img src="./images/coca.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Control vacacional</h3>
+                        <p>Proyecto para el cálculo de vacaciones desarrolado en java</p>
+                        <a href="galeria.html" target="_blank"
+                            class="project-button">Ver Proyecto</a>
+                    </div>
+
+                    <!-- Aquí agregamos los iconos debajo del botón -->
+                    <div class="tech-icons">
+                        <i class="fa-brands fa-java" style="color: #ee1520;"></i>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="./images/portafolio.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Portafolio</h3>
+                        <p>Portafolio atractivo</p>
+                        <a href="#" class="project-button">Ver Proyecto</a>
+                    </div>
+                    <div class="tech-icons">
+                        <i class="fa-brands fa-html5" style="color: #d38d0b;"></i> <!-- Icono de HTML -->
+                        <i class="fab fa-css3-alt" style="color: #366ee9; "></i> <!-- Icono de CSS -->
+                        <i class="fab fa-js" style="color: #e2f111;"></i> <!-- Icono de JavaScript -->
+                    </div>
+                </div>
+
+                <!-- <div class="proyecto">
+                    <img src="./images/p1.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                        <a href="https://startling-capybara-a6a987.netlify.app/" target="_blank"
+                            class="project-button">Ver Proyecto</a>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="./images/p1.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                        <a href="https://startling-capybara-a6a987.netlify.app/" target="_blank"
+                            class="project-button">Ver Proyecto</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="./images/p1.PNG" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                        <a href="https://startling-capybara-a6a987.netlify.app/" target="_blank"
+                            class="project-button">Ver Proyecto</a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form action="https://formspree.io/f/xovvbkga" method="POST">
+                        <input type="text" name="name" placeholder="Tu Nombre" required>
+                        <input type="tel" name="phone" placeholder="Número telefónico" required>
+                        <input type="email" name="email" placeholder="Dirección de correo" required>
+                        <input type="text" name="subject" placeholder="Tema" required>
+                        <textarea name="message" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                        <button type="submit">
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div>
+
+                <!-- <div class="col">
+                    <form action="https://formspree.io/f/mjkkzaza" method="POST" enctype="application/json">
+                        <input type="text" placeholder="Tu Nombre">
+                        <input type="text" placeholder="Número telefónico">
+                        <input type="text" placeholder="Dirección de correo">
+                        <input type="text" placeholder="Tema">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                            Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                    </form>
+                </div> -->
+                <!-- mapa -->
+                <div class="col">
+                    <img src="images/ubication.PNG" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Perú, Villa Maria del Triunfo
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Contacto: 933 846 222
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: jesusmr2691@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/jesusantonio.mezaramirez/" target="_blank"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/jesus-antonio-meza-ramirez-343970342/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/@aprendemas5707" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/jesus26mr/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

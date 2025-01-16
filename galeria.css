@@ -1,0 +1,123 @@
+/* Estilos para el fondo */
+body {
+    background: #252A2E;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor de la galería */
+.gallery {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Título de la galería */
+.gallery h2 {
+    font-size: 2em;
+    color: #1CB698;
+    padding: 50px;
+}
+
+/* Contenedor de las imágenes */
+.gallery-images {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente las imágenes */
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten en varias filas */
+    gap: 20px; /* Espaciado uniforme entre imágenes */
+    margin-bottom: 40px; /* Espaciado entre las imágenes y el botón */
+}
+
+/* Estilo de las imágenes */
+.gallery-images img {
+    border: 2px solid #252A2E;
+    transition: transform 0.3s;
+    max-width: 100%; /* Asegura que las imágenes no sobrepasen el contenedor */
+    height: auto;
+}
+
+/* Efecto de hover sobre las imágenes */
+.gallery-images img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el cursor */
+}
+
+/* Botón "Ver Proyecto" */
+.project-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: rgb(236, 243, 239);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold; /* Negrita para el texto del botón */
+    margin-top: 10px;
+}
+
+.project-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para la leyenda debajo de las imágenes */
+.caption {
+    font-size: 1em;
+    color: #666; /* Color inicial */
+    margin-top: 10px;
+}
+
+.caption:hover {
+    color: #00e1ff; /* Cambiar color al pasar el cursor */
+}
+
+/* Estilo para el botón de redirección */
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1CB698;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.back-button:hover {
+    background-color: #089292;
+}
+
+/* Contenedor del botón */
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra el botón horizontalmente */
+    margin-top: 20px;
+}
+
+/* Media Queries para hacer el diseño responsive */
+
+/* Pantallas pequeñas como teléfonos */
+@media (max-width: 768px) {
+    .gallery h2 {
+        font-size: 1.5em;
+        padding: 20px;
+    }
+
+    /* Imágenes de la galería */
+    .gallery-images img {
+        width: 100%; /* Las imágenes ocupan todo el ancho */
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* Ajustar el espaciado entre las imágenes */
+    .gallery-images {
+        gap: 10px;
+    }
+
+    /* Ajustar el tamaño del botón */
+    .back-button {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+}
+
+/* Pantallas medianas como tablets */
