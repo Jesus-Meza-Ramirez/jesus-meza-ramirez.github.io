@@ -37,7 +37,7 @@ html{
 }
 
 .contenedor-header header{
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -621,6 +621,103 @@ html{
     gap: 15px;                  /* Espacio entre los iconos */
 }
 
+/* certificado */
+.certificado{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+.certificado .contenido-seccion-autonoma{
+    max-width: 1000px;
+    margin:auto;
+}
+.certificado .contenido-seccion-edteam{
+    max-width: 1100px;
+    margin:auto;
+}
+.certificado h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.certificado .cert{
+    font-size: 25px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.certificado .galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.certificado .galeria .proyecto{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+.certificado .galeria .proyecto .autonoma{
+    /* width: 100%;
+    display: block; */
+    width: 220px;      /* Ancho fijo */
+    height: 330px;     /* Alto fijo */
+    object-fit: cover; /* Asegura que la imagen se recorte adecuadamente para ajustarse al tamaño */
+    margin: 10px;
+}
+.certificado .galeria .proyecto .edteam{
+    /* width: 100%;
+    display: block; */
+    width: 330px;      /* Ancho fijo */
+    height: 220px;     /* Alto fijo */
+    object-fit: cover; /* Asegura que la imagen se recorte adecuadamente para ajustarse al tamaño */
+    margin: 10px;
+}
+.certificado .galeria .proyecto .overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+
+}
+.certificado .galeria .proyecto .overlay h3{
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.certificado .galeria .proyecto .overlay:hover{
+    opacity: 1;
+}
+
+.certificado .galeria .proyecto .overlay:hover h3{
+    margin-bottom: 0px;
+}
+
+.tech-icons i {
+    font-size: 50px;            /* Tamaño de los iconos */
+    color: #333;                /* Color de los iconos */
+    
+}
+
+
+.tech-icons {
+    margin-top: 10px;
+    display: flex;              /* Usamos flexbox para alinear los iconos */
+    justify-content: center;    /* Centra los iconos */
+    gap: 15px;                  /* Espacio entre los iconos */
+}
+
 
 /* boton ver proyecto */
 
@@ -687,7 +784,7 @@ html{
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(images/contact.png);
-    background-color: #1e2326;
+    background-color: #252A2E;
     color: #fff;
     padding: 50px 0;
 }
@@ -770,7 +867,7 @@ html{
     margin-right: 20px;
 }
 footer{
-    background-color: #252A2E;
+    background-color: #1e2326;
     color: #fff;
     padding: 50px 0 30px 0;
     text-align: center;
