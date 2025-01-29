@@ -986,5 +986,9 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
+    .certificado .contenido-seccion-autonoma{
+        width: 100%;
+        text-align: center;
+    }
 
 }
