@@ -642,6 +642,7 @@ html{
 .certificado .contenido-seccion-autonoma{
     max-width: 1000px;
     margin:auto;
+    text-align: center;
 }
 .certificado .contenido-seccion-edteam{
     max-width: 1100px;
