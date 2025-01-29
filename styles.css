@@ -577,7 +577,8 @@ html{
     width: 330px;      /* Ancho fijo */
     height: 220px;     /* Alto fijo */
     object-fit: cover; /* Asegura que la imagen se recorte adecuadamente para ajustarse al tamaño */
-    margin: 10px;
+    margin: 5px;
+    
 }
 .portafolio .galeria .proyecto .overlay{
     position: absolute;
@@ -680,7 +681,7 @@ html{
     width: 220px;      /* Ancho fijo */
     height: 330px;     /* Alto fijo */
     object-fit: cover; /* Asegura que la imagen se recorte adecuadamente para ajustarse al tamaño */
-    margin: 10px;
+    margin: 5px;
 }
 .certificado .galeria .proyecto .edteam{
     /* width: 100%;
@@ -688,7 +689,7 @@ html{
     width: 330px;      /* Ancho fijo */
     height: 220px;     /* Alto fijo */
     object-fit: cover; /* Asegura que la imagen se recorte adecuadamente para ajustarse al tamaño */
-    margin: 10px;
+    margin: 5px;
 }
 .certificado .galeria .proyecto .overlay{
     position: absolute;
