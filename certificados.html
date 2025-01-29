@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Desarrollador | Jesus Meza</title>
+    <link rel="icon" href="images/codigo1.png" type="images/png">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Jesus Meza</a>
+            </div>
+            <nav id="nav" class="responsive">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MÍ</a></li>
+                    <li><a href="#habilidades" onclick="seleccionar()">HABILIDADES</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+                    <li><a href="#certificado" onclick="seleccionar()">CERTIFICADOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+
+
+    <!-- Certificados -->
+
+    <section id="certificado" class="certificado">
+        <div class="contenido-seccion-autonoma">
+            <h2>Certificados</h2>
+            <h2 class="cert">Certificados Universidad Autonoma del Perú</h2>
+            <div class="galeria">
+
+                <div class="proyecto">
+
+                    <img src="./certificados/habilidades.jpg" alt="" class="autonoma">
+                    <div class="overlay">
+                        <h3>Habilidades Digitales</h3>
+                        <a href="./certificados/habilidades.jpg" target="_blank"
+                            class="project-button">Ver</a>
+
+
+                    </div>
+                    
+
+                </div>
+
+
+                <div class="proyecto">
+                    <img src="./certificados/industria.jpg" alt="" class="autonoma">
+                    <div class="overlay">
+                        <h3>Industria 5.0</h3>
+                        <a href="./certificados/industria.jpg" target="_blank" class="project-button">Ver</a>
+                    </div>
+
+                </div>
+
+                <div class="proyecto">
+                    <img src="./certificados/iot.jpg" alt="" class="autonoma">
+                    <div class="overlay">
+                        <h3>Internet de las cosas</h3>
+                        
+                        <a href="./certificados/iot.jpg" target="_blank" class="project-button" >Ver </a>
+                    </div>
+            
+                </div>
+
+                <div class="proyecto">
+                    <img src="./certificados/java.jpg" alt="" class="autonoma">
+                    <div class="overlay">
+                        <h3>Java</h3>
+                        
+                        <a href="./certificados/java.jpg" target="_blank"
+                            class="project-button">Ver</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="./certificados/redes.jpg" alt="" class="autonoma">
+                    <div class="overlay">
+                        <h3>Redes y comunicaciones</h3>
+                        
+                        <a href="./certificados/redes.jpg" target="_blank"
+                            class="project-button">Ver</a>
+                    </div>
+                </div>
+
+                <div class="proyecto">
+                    <img src="./certificados/sql.jpg" alt="" class="autonoma">
+                    <div class="overlay">
+                        <h3>SQL</h3>
+                        
+                        <a href="./certificados/sql.jpg" target="_blank"
+                            class="project-button">Ver</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+
+        </div>
+        <div class="contenido-seccion-edteam">
+            <h2 class="cert">Certificados EDTeam</h3>
+                <div class="galeria">
+
+                    <div class="proyecto">
+    
+                        <img src="./certificados/certificad-curso-html.png" alt="" class="edteam">
+                        <div class="overlay">
+                            <h3>HTML desde cero</h3>
+                            <a href="./certificados/certificad-curso-html.png" target="_blank"
+                                class="project-button">Ver</a>
+    
+    
+                        </div>
+                        
+    
+                    </div>
+    
+    
+                    <div class="proyecto">
+                        <img src="./certificados/certificad-curso-javascript.png" alt="" class="edteam">
+                        <div class="overlay">
+                            <h3>Javascript</h3>
+                            <a href="./certificados/certificad-curso-javascript.png" target="_blank"
+                                class="project-button">Ver</a>
+                        </div>
+    
+                    </div>
+    
+                    <div class="proyecto">
+                        <img src="./certificados/certificad-curso-pagina-web.png" alt="" class="edteam">
+                        <div class="overlay">
+                            <h3>Página web</h3>
+                            
+                            <a href="./certificados/certificad-curso-pagina-web.png" class="project-button" target="_blank">Ver </a>
+                        </div>
+                
+                    </div>
+    
+                    <div class="proyecto">
+                        <img src="./certificados/certificad-curso-poo.png" alt="" class="edteam">
+                        <div class="overlay">
+                            <h3>Programación orientada a objetos POO</h3>
+                            
+                            <a href="./certificados/certificad-curso-poo.png" target="_blank"
+                                class="project-button">Ver</a>
+                        </div>
+                    </div>
+    
+                    <div class="proyecto">
+                        <img src="./certificados/certificad-curso-programacion.png" alt="" class="edteam">
+                        <div class="overlay">
+                            <h3>Programación desde cero</h3>
+                            
+                            <a href="./certificados/certificad-curso-programacion.png" target="_blank"
+                                class="project-button">Ver</a>
+                        </div>
+                    </div>
+    
+                    <div class="proyecto">
+                        <img src="./certificados/certificad-curso-tecnologia-programacion-2022.png" alt="" class="edteam">
+                        <div class="overlay">
+                            <h3>Programación</h3>
+                            
+                            <a href="./certificados/certificad-curso-tecnologia-programacion-2022.png" target="_blank"
+                                class="project-button">Ver</a>
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <img src="./certificados/certificad-curso-tecnologia-programacion-2022.png" alt="" class="edteam">
+                        <div class="overlay">
+                            <h3>Programación</h3>
+                            
+                            <a href="./certificados/certificad-curso-tecnologia-programacion-2022.png" target="_blank"
+                                class="project-button">Ver</a>
+                        </div>
+                    </div>
+
+                    <div class="proyecto">
+                        <img src="./certificados/certificad-curso-web.png" alt="" class="edteam">
+                        <div class="overlay">
+                            <h3>La ruta del desarrollador</h3>
+                            
+                            <a href="./certificados/certificad-curso-web.png" target="_blank"
+                                class="project-button">Ver</a>
+                        </div>
+                    </div>
+                    <div class="proyecto">
+                        <img src="./certificados/certificad-curso-git.png" alt="" class="edteam">
+                        <div class="overlay">
+                            <h3>Git desde cero</h3>
+                            
+                            <a href="./certificados/certificad-curso-git.png" target="_blank"
+                                class="project-button">Ver</a>
+                        </div>
+                    </div>
+                    
+                </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/jesusantonio.mezaramirez/" target="_blank"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/in/jesus-antonio-meza-ramirez-343970342/" target="_blank"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.youtube.com/@aprendemas5707" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/jesus26mr/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -627,6 +627,18 @@ html{
     color: #fff;
     padding: 50px 20px;
 }
+.certificado .h{
+    display: flex;
+    justify-content: colum;
+}
+
+.certificado .contenido-seccion{
+    max-width: 1100px;
+    margin:auto;
+    display: flex;
+    justify-content: colum;
+    align-items: center;
+}
 .certificado .contenido-seccion-autonoma{
     max-width: 1000px;
     margin:auto;
@@ -641,6 +653,7 @@ html{
     text-align: center;
     padding: 20px 0;
 }
+
 
 .certificado .cert{
     font-size: 25px;
