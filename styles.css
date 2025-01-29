@@ -574,10 +574,10 @@ html{
 .portafolio .galeria .proyecto img{
     /* width: 100%;
     display: block; */
-    width: 330px;      /* Ancho fijo */
+    width: 320px;      /* Ancho fijo */
     height: 220px;     /* Alto fijo */
     object-fit: cover; /* Asegura que la imagen se recorte adecuadamente para ajustarse al tamaño */
-    margin: 0px;
+    margin: 10px;
     
 }
 .portafolio .galeria .proyecto .overlay{
@@ -979,7 +979,7 @@ footer .arriba{
         max-width: 100%;
     }
     .portafolio .galeria .proyecto img{
-        width: 100%;
+        width: 93%;
         text-align: center;
     }
     .contacto .fila{
